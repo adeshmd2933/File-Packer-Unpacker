@@ -1,0 +1,4 @@
+int arr[5]  ----->memory allocated in stack ---------> default value garbage.
+int arr = new arr() ---------->store in heap --------> default value is 0.
+If we store any value in an array then default value for upcoming indexes is 0.
+Array is always pass by reference
